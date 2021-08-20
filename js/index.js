@@ -51,3 +51,22 @@ fetch("https://restcountries.eu/rest/v2/lang/spa")
     document.body.innerHTML += `<h2 id="spanish">Spanish Speaking Country`;
     document.body.append(container);
   });
+// async function getData() {
+//   const res = await fetch("https://restcountries.eu/rest/v2/all");
+//   const data = await res.json();
+//   return data;
+// }
+
+// let country;
+
+// (async () => {
+//   country = await getData();
+//   update();
+// })();
+
+// function update() {
+//   let n = +document.querySelector("#limit").value;
+//   if (n <= country.length) {
+//     createCards(country, n);
+//   }
+// }
